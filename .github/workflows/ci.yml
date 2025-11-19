@@ -15,4 +15,6 @@ jobs:
           echo "Проверяем код..."
           ls -la
           echo "CI успешно выполнен!"
-
+          
+      - name: Запуск Python файла
+        run: python main.py
